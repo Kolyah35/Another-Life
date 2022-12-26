@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "chrono": "cpp",
+        "format": "cpp",
+        "*.m": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "xiosbase": "cpp",
+        "xutility": "cpp"
+    }
+}

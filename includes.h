@@ -12,5 +12,5 @@ enum Side {
 };
 const int screenWidth = 1280;
 const int screenHeight = 720;
-const int speed = 3; // лан тут пока  что не надо extern
-extern int score; // так там вроде inline надо
+const int speed = 3;
+extern int score;

@@ -31,7 +31,6 @@ endif()
 # This is the main part:
 file(GLOB SOURCES *.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES} ${APP_ICON_RESOURCE_WINDOWS})
-include_directories(libs libs/enet "${CMAKE_SOURCE_DIR}")
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17)
 target_link_libraries(${PROJECT_NAME} PUBLIC raylib raylib_cpp)
 
